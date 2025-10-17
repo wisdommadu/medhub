@@ -8,7 +8,7 @@ const Footer = () => {
 
             {/*---------- Left Section -------*/}
             <div>
-                <img className='mb-0 w-40' src={assets.logo} alt="" />
+                <img className='mb-0 w-4' src={assets.logo} alt="" />
                 <p className='w-full md:w-2/3 text-gray-600 leading-6'>
                     MedHub is your gateway to seamless healthcare. Book export GP consultations, urgent care, and personalized wellness programs instantly anytime,
                     anywhere.
