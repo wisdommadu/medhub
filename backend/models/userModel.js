@@ -8,7 +8,7 @@ const userSchema = new mongoose.Schema({
     address: { type: Object, default: {line1:'', line2:''} },
     gender: { type: String, default: "not selected" },
     dob: { type: String, default: "not selected" },
-    phone: { type: String, default: '+212 555 444 9' },
+    phone: { type: String, default: '+212 555 444 8' },
     })
 
 const userModel = mongoose.models.user || mongoose.model('user', userSchema)
