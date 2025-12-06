@@ -2,7 +2,7 @@ import { useState } from "react";
 import { createContext } from "react";
 import axios from 'axios'
 import { toast } from 'react-toastify'
-import { loginDoctor } from "../../../backend/controllers/doctorController";
+
 
 export const  DoctorContext = createContext()
 
